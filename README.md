@@ -27,6 +27,9 @@ The system is designed as a three-stage pipeline, spanning hardware, firmware, a
 
 ---
 
+## ECG System Overview
+![ECG System Overview](images/system_overview.png)
+
 ## Hardware Design
 
 - **Schematic Layout:**  
