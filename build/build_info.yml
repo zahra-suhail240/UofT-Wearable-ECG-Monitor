@@ -1,0 +1,22 @@
+cmake:
+  board:
+    name: 'nrf52840dk'
+    path:
+     - 'C:/ncs/v3.2.0/zephyr/boards/nordic/nrf52840dk'
+    qualifiers: 'nrf52840'
+    revision: ''
+  images:
+   - name: 'UofT-Wearable-ECG-Monitor'
+     source-dir: 'C:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'C:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor/build/_sysbuild/empty.conf'
+     - 'C:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor/build/_sysbuild/empty.conf'
+    user-files:
+     - 'C:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor/build/_sysbuild/empty.conf'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\66cdf9b75e\opt\bin\Scripts\west build --build-dir c:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor/build c:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor --pristine --board nrf52840dk/nrf52840 -- -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -DUofT-Wearable-ECG-Monitor_DEBUG_THREAD_INFO=Off'
+  topdir: 'c:\ncs\v3.2.0'
+  version: '1.4.0'
