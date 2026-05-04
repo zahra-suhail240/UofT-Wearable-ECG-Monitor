@@ -1,6 +1,0 @@
-west:
-  command: C:\ncs\toolchains\66cdf9b75e\opt\bin\Scripts\west build --build-dir c:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor/build
-    c:/Users/zahra/Desktop/UofT-Wearable-ECG-Monitor --pristine --board nrf52840dk/nrf52840
-    -- -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -DUofT-Wearable-ECG-Monitor_DEBUG_THREAD_INFO=Off
-  topdir: c:\ncs\v3.2.0
-  version: 1.4.0
