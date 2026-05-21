@@ -35,4 +35,5 @@
     };
 };
 
+// TO DO: add gpio pin to read INTB signal
 
