@@ -35,13 +35,12 @@ int main(void) {
 }
 
 int initialize_MAX() {
+    // TO DO: implement MAX30001G initialization
 
+    return 0;
 }
-
-
-
 
 void SPI_read_thread(void *, void *, void *) {
     // TO DO: log message and toggle LED
-
+    LOG_INF("SPI read thread started");
 }
