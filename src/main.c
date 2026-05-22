@@ -8,6 +8,9 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/drivers/spi.h>
 
+// Register logging module
+LOG_MODULE_REGISTER(main);
+
 // TO DO: configure SPI_read_thread
 #define SPI_READ_THREAD_STACK_SIZE 1024
 #define SPI_READ_THREAD_PRIORITY 5
