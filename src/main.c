@@ -19,6 +19,8 @@ K_THREAD_STACK_DEFINE(SPI_read_thread_stack, SPI_READ_THREAD_STACK_SIZE);
 struct k_thread SPI_read_thread_data;
 void SPI_read_thread(void *, void *, void *);
 
+// TO DO: configure interrupt service routine
+
 int initialize_MAX();
 
 int main(void) {
@@ -36,6 +38,8 @@ int main(void) {
     );
 
 }
+
+// TO DO: implement interrupt service routine
 
 int initialize_MAX() {
     // TO DO: implement MAX30001G initialization
